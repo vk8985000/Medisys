@@ -72,3 +72,4 @@ virtualenv==20.23.0
 wasabi==1.1.1
 wcwidth==0.2.6
 Werkzeug
+Gunicorn
