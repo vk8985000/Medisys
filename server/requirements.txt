@@ -35,7 +35,7 @@ murmurhash==1.0.9
 nest-asyncio==1.5.6
 numpy
 packaging==23.1
-pandas==2.0.3
+pandas
 parso==0.8.3
 pathy==0.10.1
 pickleshare==0.7.5
