@@ -51,7 +51,7 @@ pytz==2023.3
 pyzmq==25.1.0
 requests==2.29.0
 scikit-learn
-scipy==1.11.1
+scipy
 six==1.16.0
 smart-open==6.3.0
 spacy==3.5.2
