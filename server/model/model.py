@@ -6,8 +6,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import pickle
 
-train = pd.read_csv("./Training.csv")
-test = pd.read_csv("./Testing.csv")
+train = pd.read_csv(os.getcwd() + "/server/dataset/Training.csv")
+test = pd.read_csv(os.getcwd() + "/server/dataset/Testing.csv")
 
 
 P = train[["prognosis"]]

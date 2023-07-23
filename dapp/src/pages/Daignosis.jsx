@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import {
   FormControl,
@@ -16,6 +16,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { symptoms, categorizedSymtoms } from "../utils/CONSTANTS";
 
 const Daignosis = ({ currentAccount, onClickDisconnect }) => {
+  const [daignosis, setDiagnosis] = useState({});
   return (
     <div>
       <Navbar
@@ -53,6 +54,7 @@ const Daignosis = ({ currentAccount, onClickDisconnect }) => {
                       <Checkbox
                         color="primary"
                         value={categorizedSymtoms[category][symptom]}
+                        onChange={}
                       />
                     }
                     label={symptom}

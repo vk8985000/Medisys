@@ -6,7 +6,7 @@ import pandas
 app = Flask(__name__)
 
 # Load the pre-trained machine learning model
-model = joblib.load("./model/model.pkl")
+model = joblib.load(os.getcwd() + "/server/model/model.pkl")
 
 
 @app.route("/predict", methods=["POST"])
